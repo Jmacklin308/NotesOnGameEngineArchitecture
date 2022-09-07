@@ -1,0 +1,4 @@
+Address ranges don't have to point to memory devices
+
+
+They also can be mapped to your peripheral devices. This is called memory-mapped I/O.

@@ -1,0 +1,32 @@
+0x00000000 = 0 
+0xFFFFFFFF = 
+
+
+2^32 = 4,294,967,296 different values (different memory addresses (each a byte)) (4gb total memory supported)
+
+2^64 = ... allot
+
+
+
+The address buss with (32 or 64 bit usuall) controls the possible addresses that can be accessed by the CPU
+
+data buss can be smaller, requring more cycles to process bigger data
+... like if you had 8 bit data buss it would take 2 cycles to process 16 bits
+
+data that doesn't fit the bus will need to have an extra cycle. (so try to write instructions that are equal to the architecture)
+
+
+Address bus tells the data where to go
+
+data buss supplies the data
+
+
+
+CPU's with allot of vacan addresses will inevitablly have empty 
+
+
+
+
+
+
+
