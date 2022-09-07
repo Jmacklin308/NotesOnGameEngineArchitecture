@@ -2,3 +2,13 @@ Address ranges don't have to point to memory devices
 
 
 They also can be mapped to your peripheral devices. This is called memory-mapped I/O.
+
+
+This was used back in ye' olden times with pc's like the apple 2 where it mapped I/O devices into 0xc000 - 0xc0ff... this allowed programs to control the game control socket, read/write control voltages and do other i/o operations.
+
+
+Alternatively the CPU can use these special registers called "ports" (probably heard of them)
+
+
+
+

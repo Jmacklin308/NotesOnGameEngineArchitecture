@@ -1,0 +1,6 @@
+In the early days of computing, raster based display devices needed to read a hard wired range of addresses to determine the color and brigtness of each pixel. These values needed to be stored into RAM but accessable trhough the video controller.
+
+Before the advent of GPU's that we know and love today, vram was shared with the regular RAM and was virtually identical in how they pass and retrieve data to the CPU.
+
+Later GPU's were created that put the video controller and VRAM on a dedicated motherboard that communicated with the main motherboard of the host system. This delegated allot of the processing away from the CPU, freeing it up to do more non video related task. However, this also lead to complexity on how the data is stored and retrieved. Leading us to complex API's like OpenGL and DirectX where we have to package up the data in a way the GPU can understand while staying active on the CPU. 
+
